@@ -4,7 +4,7 @@ title: "Bucketlist"
 description: ""
 ---
 {% include JB/setup %}
-# My Bucket List
+### My Bucket List
 1. grow a full beard
 2. master a martial art
 3. master python
