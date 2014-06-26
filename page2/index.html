@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Jason C Fisher</title>
+    
+    <meta name="author" content="Jason C Fisher">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="alternate" type="application/atom+xml" title="R Entries" href="/atom.xml" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/twitter-2.0/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css" media="screen">
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="/assets/themes/twitter-2.0/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter-2.0/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/twitter-2.0/css/syntax.css" rel="stylesheet" type="text/css">
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="/figs/favicon.ico">
+  <!-- Update these with your own images
+    <link rel="apple-touch-icon" href="/figs/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/figs/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/figs/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="/">jfisher-usgs</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="/categories.html">Categories</a></li>
+              <li><a href="/archive.html">Archive</a></li>
+              <li><a href="/about.html">About</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h1>Jason C Fisher  <small>blog</small></h1>
+</div>
+
+<div class="row">
+  <div class="span12">
+    
+   <!-- here add you post markup -->
+   <h1><a href="/art/2012/05/31/infographics">Infographics</a></h1>
+   <p class="author">
+    <span class="date">2012-05-31</span>
+  </p>
+  <div class="content">
+    <p>Visualizing scientific concepts using <a href='http://en.wikipedia.org/wiki/Infographics'>infographics</a>; a few examples from my portfolio:</p>
+
+<p><img alt='center' src='/figs/2012-05-31-infographics/fig1.png' /></p>
+
+<p><img alt='center' src='/figs/2012-05-31-infographics/fig2.png' /></p>
+
+<p><img alt='center' src='/figs/2012-05-31-infographics/fig3.png' /></p>
+
+<p><img alt='center' src='/figs/2012-05-31-infographics/fig4.png' /></p>
+
+<p><img alt='center' src='/figs/2012-05-31-infographics/fig5.png' /></p>
+
+<p><img alt='center' src='/figs/2012-05-31-infographics/fig6.png' /></p>
+  </div>
+
+   <!-- here add you post markup -->
+   <h1><a href="/lessons/2012/05/30/jekyll-build-on-windows">Jekyll Build on Windows</a></h1>
+   <p class="author">
+    <span class="date">2012-05-30</span>
+  </p>
+  <div class="content">
+    <p>The following notes were made while building this blog; source code is available <a href='https://github.com/jfisher-usgs/jfisher-usgs.github.com'>here</a>.</p>
+
+<h2 id='github'>GitHub</h2>
+
+<p>If you don&#8217;t already have one, sign up for a <a href='https://github.com'>GitHub</a> account <a href='https://github.com/signup/free'>here</a>. Go to your Github Dashboard and create a new repository named <em>jfisher-usgs.github.com</em> (here and elsewhere replace <em>jfisher-usgs</em> with your GitHub <em>username</em>). Don&#8217;t run any of their suggested setup commands.</p>
+
+<h2 id='jekyllbootstrap'>Jekyll-Bootstrap</h2>
+
+<p>Open a GitBash window, a command prompt with access to <a href='http://git-scm.com/'>Git</a>, and install Jekyll-Bootstrap:</p>
+
+<pre><code>$ git clone https://github.com/plusjade/jekyll-bootstrap.git jfisher-usgs.github.com
+$ cd jfisher-usgs.github.com
+$ git remote set-url origin git@github.com:jfisher-usgs/jfisher-usgs.github.com.git
+$ git push origin master</code></pre>
+
+<p>After GitHub has a couple minutes to refresh your blog, it is publicly available at <a href='http://jfisher-usgs.github.com'>http://jfisher-usgs.github.com</a>.</p>
+
+<h2 id='ruby'>Ruby</h2>
+
+<p>Install <a href='http://www.ruby-lang.org/en/'>Ruby</a>, available <a href='http://rubyinstaller.org/downloads'>here</a>, on your local machine; the file I downloaded was <em>rubyinstaller-1.9.3-p194.exe</em>.</p>
+
+<h2 id='twitter20'>Twitter-2.0</h2>
+
+<p>Install Twitter-2.0 theme packaged for Jekyll-Bootstrap to get a <a href='http://twitter.github.com/bootstrap/scaffolding.html#responsive'>responsive design</a>.</p>
+
+<pre><code>$ rake theme:install git=&quot;https://github.com/gdagley/theme-twitter-2.0&quot;</code></pre>
+
+<p>After the install is successful, the task will ask you if you&#8217;d like to switch to the newly installed theme. Type <em>y</em> and enter to switch.</p>
+
+<h2 id='pygments'>Pygments</h2>
+
+<p>For code highlighting using <a href='http://pygments.org/'>pygments</a>, the following steps are necessary: Install <a href='http://python.org/'>Python</a>, available <a href='http://python.org/download/'>here</a>; the file I downloaded was <em>python-2.7.3.msi</em>. Add <em>C:/Python27</em> to your PATH, a system environment variable.</p>
+
+<p>In order to install Pygments through the easy_install command, open a GitBash window and install <a href='http://pypi.python.org/pypi/distribute#installation-instructions'>Distribute</a>:</p>
+
+<pre><code>$ curl -O http://python-distribute.org/distribute_setup.py
+$ python distribute_setup.py</code></pre>
+
+<p>Add <em>C:/Python27/Scripts</em> to your PATH and install Pygments from the Windows Command Prompt:</p>
+
+<pre><code>$ easy_install Pygments</code></pre>
+
+<p>Download <em>pygments_style.css</em> from <a href='http://pygments.org/demo/35195/?style=tango'>here</a> and replace all occurrences of <em>.syntax</em> with <em>.highlight</em>. Save file as <em>/assets/themes/twitter-2.0/css/syntax.css</em>. Add the following line to the <em>default.html</em> file:</p>
+
+<pre><code>&lt;link href=&quot;/assets/themes/twitter-2.0/css/syntax.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;</code></pre>
+
+<p>A <a href='https://gist.github.com/1185645'>patch</a> is needed if you get the following error running Pygmentize:</p>
+
+<pre><code>Liquid error: Bad file descriptor</code></pre>
+
+<p>Open a GitBash window and install the patch:</p>
+
+<pre><code>$ cd C:/Ruby193/lib/ruby/gems/1.9.1/gems/albino-1.3.3/lib
+$ wget https://raw.github.com/gist/1185645/0001-albino-windows-refactor.patch
+$ patch -p1 &lt; 0001-albino-windows-refactor.patch</code></pre>
+
+<h2 id='ruby_development_kit'>Ruby Development Kit</h2>
+
+<p>Install the Ruby Development Kit on your local machine if you want to be able to preview your content before publishing. The development kit is available <a href='http://rubyinstaller.org/downloads'>here</a>; the file I downloaded was <em>DevKit-tdm-32-4.5.2-20111229-1559-sfx.exe</em>. Extract files into <em>C:/RubyDevKit</em>.</p>
+
+<p>Open a GitBash window and install the Jekyll ruby gem:</p>
+
+<pre><code>$ cd C:/RubyDevKit
+$ ruby dk.rb init
+$ ruby dk.rb install
+$ gem install jekyll</code></pre>
+
+<p>Open a GitBash window and start a Jekyll Server:</p>
+
+<pre><code>$ cd D:/Software/jfisher-usgs.github.com
+$ jekyll --server</code></pre>
+
+<p>This will start a local server that will serve up your blog while you are working locally. See it in your browser at <a href='http://localhost:4000'>http://localhost:4000</a>. As long as you leave this GitBash window open you&#8217;ll have the server running at that port to test your code locally.</p>
+
+<h2 id='providers'>Providers</h2>
+
+<p>I chose <a href='http://disqus.com'>Disqus</a> as a comments provider; register your site <a href='http://disqus.com/admin/register'>here</a> and make note of the <em>short_name</em>. <a href='http://www.google.com/analytics/'>Google</a> was chosen for an analytics provider; make note of your <em>tracking_id</em>.</p>
+
+<h2 id='configure'>Configure</h2>
+
+<p>Open a text editor and configure the <em>_config.yml</em> file. The following changes were made:</p>
+
+<pre><code>title : jfisher-usgs
+tagline: blog
+author :
+  name : Jason C Fisher
+  email : XXXXXXX@XXXX.XXX
+  github : jfisher-usgs
+
+# Production URL
+production_url : http://jfisher-usgs.github.com
+
+# Pagination (added this line)
+paginate: 3
+
+# Settings for comments helper
+comments :
+  provider : disqus
+    disqus :
+      short_name : XXXXXXXXXXX
+
+# Settings for analytics helper
+analytics :
+  provider : google
+  google :
+    tracking_id : &#39;XX-XXXXXXXX-X&#39;</code></pre>
+
+<h2 id='page_and_post'>Page and Post</h2>
+
+<p>Create a page template:</p>
+
+<pre><code>$ rake page name=&quot;XXXX.md&quot;</code></pre>
+
+<p>Create a post template:</p>
+
+<pre><code>$ rake post title=&quot;XXXX XXXX&quot;</code></pre>
+
+<p>See <a href='http://daringfireball.net/projects/markdown'>Markdown Syntax Guide</a> for help with content creation in your favorite text editor.</p>
+
+<h2 id='references'>References</h2>
+
+<p><a href='http://jekyllbootstrap.com/lessons/jekyll-introduction.html'>http://jekyllbootstrap.com/lessons/jekyll-introduction.html</a><br /><a href='http://zolomon.com/tutorial/2012/02/23/setting-up-jekyll-on-windows-7'>http://zolomon.com/tutorial/2012/02/23/setting-up-jekyll-on-windows-7</a><br /><a href='http://twitter.github.com/bootstrap/index.html'>http://twitter.github.com/bootstrap/index.html</a></p>
+  </div>
+
+
+<!-- Pagination links -->
+<div class="pagination pagination-centered">
+  <ul>
+  
+    
+      <li class="prev"><a href="/" title="Previous page">Prev</a></li>
+    
+  
+  
+    <li class="next disabled"><a>Next</a>
+  
+  </ul>
+</div>
+
+  </div>
+</div>
+
+
+      </div>
+
+      <footer>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/assets/themes/twitter-2.0/js/jquery.min.js"><\/script>')</script>
+    <script src="/assets/themes/twitter-2.0/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
+
