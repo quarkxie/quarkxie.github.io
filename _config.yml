@@ -1,4 +1,3 @@
-markdown: rdiscount
 permalink: /:title/
 url: http://quarkxie.github.io
 name: Qiuchen Xie
