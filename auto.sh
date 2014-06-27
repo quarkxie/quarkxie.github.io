@@ -1,4 +1,3 @@
-jekyll build &
 
 cp build/* ../quarkxie.github.io/ -r
 
